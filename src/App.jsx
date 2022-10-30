@@ -20,9 +20,9 @@ const App = () => {
 
       {
                 loading ? <RingLoader
-                color={"#00646e"} loading={loading} size={150}  /> :null  
+                color={"#00646e"} loading={loading} size={150}  /> :  <Weather/>
             }
-     <Weather/>
+   
     </div>
   );
 };

@@ -8,6 +8,7 @@ body{
   font-family: 'Roboto', sans-serif;
  background-image:url(../public/bg.jpg);
  background-size: cover;
+ background-repeat: no-repeat;
  backdrop-filter: blur(3px);
 
 }
