@@ -36,7 +36,7 @@ const celcius =(weather.main?.temp - 273.15).toFixed(2)
         <p>Pressure: {weather.main?.pressure} mb</p>
       </div>
         </div>
-      <h2 className="temp">Temperature: {temp?celcius:weather.main?.temp}</h2>
+      <h2 className="temp">Temperature: {temp?{celcius}:weather.main?.temp}{temp?"°C":"°F"}</h2>
       <button onClick={change}>Degrees °F/°C</button>
     </div>
   );
